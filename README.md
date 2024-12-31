@@ -1,9 +1,6 @@
 # Weatherscan Simulator
 Weatherscan simulation in HTML/JS/CSS
 
-## Donate:
-If you would like to donate to this project visit here:
-
 ## Stay up to date (Visit the Discord Server):
 mistwx.com/discord
 ## Installation Instructions:
