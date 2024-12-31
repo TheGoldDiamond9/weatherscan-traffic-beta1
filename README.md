@@ -3,10 +3,9 @@ Weatherscan simulation in HTML/JS/CSS
 
 ## Donate:
 If you would like to donate to this project visit here:
-https://opencollective.com/weather-ranch 
 
 ## Stay up to date (Visit the Discord Server):
-https://discord.io/WeatherRanch
+mistwx.com/discord
 ## Installation Instructions:
 
 ## Running locally:
