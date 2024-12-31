@@ -255,6 +255,12 @@ var mainMap
 					}
 				}
 				,localDoppler() {
+					map.on('load', function() {
+						loadRadarImages('radar-1')
+					});
+					satellitemap.on('load', function() {
+						loadRadarImages('satrad-1')
+					});
 					var locthing = (location == 0) ? maincitycoords : locList[location - 1]
 					var zoom = 7.7, maxloop = Math.ceil((slideDelay)*(11/60000)), lat = locthing.lat, lon = locthing.lon
 					weatherAudio.playLocalRadar();
@@ -280,6 +286,12 @@ var mainMap
 					}, slideDelay);
 				}
 				,regionalSatellite() {
+					map.on('load', function() {
+						loadRadarImages('radar-1')
+					});
+					satellitemap.on('load', function() {
+						loadRadarImages('satrad-1')
+					});
 					var locthing = (location == 0) ? maincitycoords : locList[location - 1]
 					var zoom = 4.5, maxloop = Math.ceil((slideDelay)*(11/60000)), lat = locthing.lat, lon = locthing.lon
 					$('.radar-slide .radar-legends .pastlegend').text('Past 5 Hours')
