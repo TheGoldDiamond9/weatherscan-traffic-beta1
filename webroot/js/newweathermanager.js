@@ -1351,6 +1351,9 @@ setTimeout(function() {
   satellitemap.on('load', function() {
     loadRadarImages('satrad-1')
   });
+  setInterval(() => {
+    loadRadarImages('minimap')
+  }, 900000);
   loops = new Loops();
   slides = new Slides();
   MarqueeMan();
